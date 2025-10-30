@@ -45,6 +45,16 @@ A function `recommend(movie)` is defined, which returns a list of the top 5 most
 * `nltk`
 * `sklearn`
 * `google.colab` (for mounting Google Drive)
+* Streamlit
+* 
+## Web Application (app.py)
+
+* Built using Streamlit for an interactive user interface.
+* Loads preprocessed data (movie_dict.pkl and similarity.pkl).
+* Allows users to select a movie from a dropdown.
+* Recommends top 5 similar movies using cosine similarity scores.
+* Fetches additional movie details (poster, plot, IMDb rating, etc.) from OMDb API.
+* Displays results in a clean, card-like layout with images and descriptions.
 
 ## 🚀 How to Run
 
