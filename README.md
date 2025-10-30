@@ -58,10 +58,23 @@ A function `recommend(movie)` is defined, which returns a list of the top 5 most
 
 ## 🚀 How to Run
 
-1. Upload the dataset files to your Google Drive.
-2. Run the notebook in Google Colab.
-3. Ensure NLTK stopwords and PorterStemmer are available (they are preloaded in Colab).
-4. Call the `recommend('Movie Title')` function with a valid movie title from the dataset.
+1 Run the model to generate pickle files:
+   python model.py
+
+2 Launch the Streamlit web app:
+   streamlit run app.py
+
+3 Then open the browser and select a movie:
+   ➡ Choose: "Avatar"
+
+
+4 The app will display:
+
+* Similar movies with posters
+
+* IMDb ratings and links
+
+* Plot summaries and actor details
 
 ## 📌 Example Usage
 
